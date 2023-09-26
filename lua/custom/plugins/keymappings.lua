@@ -16,4 +16,9 @@ set_keymap('v', '<leader>#', ':<C-U>lua require("Comment.api").toggle.lfinewise(
 -- vertical split
 set_keymap('n', '<leader>pv', '<cmd>Vex<CR>', opts)
 
+-- grep
+set_keymap('n', '<leader>cn', '<cmd>cnext<CR>', opts)
+set_keymap('n', '<leader>cp', '<cmd>cprev<CR>', opts)
+set_keymap('n', '<leader>co', '<cmd>copen<CR>', opts)
+
 return {}
